@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "terravisual",
+  "version": "0.1",
+  "name": "Terra Visual",
+  "description": "Візуали та софт для анархії",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.terra.visual.TerraVisual"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
